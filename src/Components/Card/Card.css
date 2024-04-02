@@ -293,9 +293,10 @@ ul.colors li:nth-child(3) {
   
 }
 }
+
 @media (max-width: 320px) {
   .item {
-    width: 138px;
-    height: 190px;
+    width: 123px;
+    height: 157px;
 }
 }

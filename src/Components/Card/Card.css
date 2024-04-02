@@ -288,8 +288,14 @@ ul.colors li:nth-child(3) {
   justify-content: space-evenly;
   column-gap: 5px;
   gap: 1rem;
-  margin: 2rem 3rem;
+  margin: 3rem 2rem;
   grid-template-columns: 2fr 1fr;
   
+}
+}
+@media (max-width: 320px) {
+  .item {
+    width: 138px;
+    height: 190px;
 }
 }

@@ -1,29 +1,26 @@
-import React from 'react'
-import Navbar from '../src/Components/Navbar/Navbar.jsx'
-import IndividualIntervalsExample from '../src/Components/Carousel/Carousel.jsx'
-import Card from './Components/Card/Card';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
-import Footer from './Components/Footer/Footer';
-import Pagetwo from './Components/Pages/Pagetwo';
-import Cartpage from './Components/Pages/Cartpage';
+import Signgin from './Components/Pages/Signin.jsx';
+import Signup from './Components/Pages/Signup.jsx';
+import Home from './Components/Home/Home.jsx'
+import Navbar from './Components/Navbar/Navbar.jsx';
+import IndividualIntervalsExample from './Components/Carousel/Carousel.jsx';
+import Card from './Components/Card/Card.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <IndividualIntervalsExample />
       <Card />
-     <Routes>
-      <Route path='./' element={<Navbar />} />
-      <Route path='/IndividualIntervalsExample' element={<IndividualIntervalsExample />} />
-      <Route path='/Card' element={<Card />} />
-      <Route path='/Card' element={<Footer />} />
-      <Route path='/Pagetwo' element={<Pagetwo />}/>
-      <Route path='/Cartpage' element={<Cartpage />}/>
-     </Routes>
-     <Footer />
+      <Routes>
+        <Route path='/Home' element={<Home />} />
+        <Route path='/Signin' element={<Signgin />} />
+        <Route path='/Signup' element={<Signup />} />
+      </Routes>
+      <Footer />
     </div>
   )
 }

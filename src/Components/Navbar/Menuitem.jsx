@@ -20,7 +20,7 @@ const menuClose = () => {
     <div className="menuitem">
       {menu ? <RxCross1 className='cross' style={{alignItems: 'center', justifyContent: 'center', fontSize: '30px'}} onClick={menuClose}  /> : < TbMenu2 className='menu-icon' style={{alignItems: 'center', justifyContent: 'center', fontSize: '30px'}} onClick={() => setMenu(!menu)} />}
       <ul className={menu ? 'menu-open active' : 'list'}> 
-        <li onClick={menuClose}>Home</li>
+       <a href="/Home" style={{ textDecoration: 'none' }}><li onClick={menuClose}>Home</li></a> 
         <li onClick={menuClose}>All Categories
           <div className='dropdown-items'>
             <div className="dropdown-left">

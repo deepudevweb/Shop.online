@@ -2,15 +2,12 @@
 import React, { useState } from 'react';
 import './Navbar.css'
 import Menuitem from './Menuitem';
+import Login from '../Pages/Login/Login';
+
 
 
 const Navbar = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleDropdown = () => {
-        setIsOpen(!isOpen);
-    };
 
     return (
         <>
@@ -45,16 +42,9 @@ const Navbar = () => {
                                         </a>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <a style={{ background: 'none' }} className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" onClick={toggleDropdown}>
-                                            <i className="fa fa-user"></i> Username
+                                      <a style={{ background: 'none' }} className="nav-link" href="#" >
+                                            <i className="fa fa-user"></i> Login
                                         </a>
-                                        {isOpen && (<ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a className="dropdown-item" href="#"><i className="fa fa-user"></i> Profile</a></li>
-                                            <li><a className="dropdown-item" href="#"><i className="fa fa-list"></i> My Orders</a></li>
-                                            <li><a className="dropdown-item" href="#"><i className="fa fa-heart"></i> My Wishlist</a></li>
-                                            <li><a className="dropdown-item" href="#"><i className="fa fa-shopping-cart"></i> My Cart</a></li>
-                                            <li><a className="dropdown-item" href="#"><i className="fa fa-sign-out"></i> Logout</a></li>
-                                        </ul>)}
                                     </li>
                                 </ul>
                             </div>

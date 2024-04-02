@@ -26,6 +26,9 @@
     height: 100px;
     width: 280px;
 }
+.brand-logo{
+   scale: .5;
+}
 
 .brand-heading {
     color: #1d0b0b;
@@ -39,7 +42,7 @@
     }
 
     .slide > img {
-        scale: .5;
+        scale: .4;
     }
 
     .slider .slide {

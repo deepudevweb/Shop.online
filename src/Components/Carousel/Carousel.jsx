@@ -10,8 +10,8 @@ function IndividualIntervalsExample() {
       <Carousel.Item interval={1000}>
         <img className='mainbanner' src='https://cdn.dribbble.com/userupload/12379122/file/original-225e56e560531de5149096f2af070302.png?resize=1024x1024&vertical=center' alt='banner' text="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Top shoes brand</h3>
+          <p>Get the latest trends in shoes</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={500}>

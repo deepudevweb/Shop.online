@@ -1,0 +1,119 @@
+:root{
+    --primary: #584CD7;
+  }
+
+/* sign in form style */
+
+.Joining {
+  padding: 0 1rem;
+}
+
+.sign-in-form{
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    /* margin-top: 8rem; */
+    box-shadow: 1px 1px 4px black;
+    padding: 17px 9px;
+}
+
+.title {
+    font-weight: bolder;
+}
+
+.sign-in-form label{
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(206 0 255);
+}
+
+.sign-in-form input{
+    margin-bottom: 25px;
+    padding: 17px 8px;
+    border-radius: 10px;
+    border:  1px solid#80808069;
+    font-size: 15px;
+}
+ .sign-in-form button {
+    /* vertical-align: #4CAF50; */
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-transform: none;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    background-color: var(--primary);
+ }
+.forgot {
+  color: rgb(206 0 255);
+    text-decoration: none;
+    
+ }
+ .remember {
+     display: flex;
+     justify-content: space-between;
+ }
+ .forgot a {
+  color: rgb(206 0 255);
+ }
+
+
+ .rem-chk {
+  color: rgb(206 0 255);
+ }
+ 
+ .no-account {
+    margin-top: 1.5rem;
+    color: black;
+    /* margin-left: 5rem; */
+ }
+.no-account a {
+    color: var(--primary);
+    padding: 3px 3px;
+    text-decoration: underline;
+    
+ }
+
+ .login-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../assets//shop-online.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+  .login-switch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    align-self: center;
+    margin-bottom: 30px;
+  }
+  .Borderbottom{
+    border-bottom: 5px solid var(--primary);
+  }
+
+  .switch {
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    padding: 4px 6px ;
+    border-radius: 5px;
+  }
+  .switch:hover{
+    cursor: pointer;
+    color: var(--primary);
+    background-color: rgb(209, 219, 228); ;
+
+  }

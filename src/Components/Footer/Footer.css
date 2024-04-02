@@ -82,6 +82,7 @@ h4 {
 .footer-menu p:hover {
 	color: coral;
 	text-shadow: 1px 1px 1px black;
+	text-decoration: underline;
 }
 
 .footer-widget-title {
@@ -134,6 +135,7 @@ span {
 	align-items: center;
 	flex-direction: column;
 	justify-content: center;
+	margin-bottom: 3rem;
 }
 
 .social-links {
@@ -168,11 +170,18 @@ span {
 	height: 100%;
 	top: -90px;
 	left: 0;
-	background: #000;
-	background: linear-gradient(-45deg, #ed1c94, #ffec17);
+	/* background: #000; */
+	/* background: linear-gradient(-45deg, #ed1c94, #ffec17); */
+	/* background-color: #3b5998; */
 	position: absolute;
 	transition: 0.5s;
 }
+
+#tw {
+	font-size: 25px;
+	line-height: 38px;
+}
+
 
 .social-links a:hover::after {
 	top: 0;
@@ -186,6 +195,22 @@ span {
 	transform: translateY(-10px);
 }
 
+#fb:hover {
+	background-color: #3b5998;
+}
+#tw:hover {
+	background-color: #14171A;
+	color: white;
+}
+#li:hover {
+	background-color: #0077b5;
+}
+#in:hover {
+	background-color: #ee2a7b;
+}
+#git:hover {
+	background-color: #24292e;
+}
 
 
 @media (max-width:991px) {
@@ -232,5 +257,10 @@ span {
 
 	.footer-big {
 		padding: 35px 0 35px 11px;
+	}
+
+	#tw {
+		font-size: 15px;
+		line-height: 20px;
 	}
 }

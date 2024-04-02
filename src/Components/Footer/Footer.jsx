@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { CiMail } from "react-icons/ci";
+import { RiTwitterXFill } from "react-icons/ri";
 import { IoMdCall } from "react-icons/io";
 
 
@@ -74,15 +75,15 @@ function Footer() {
               </div>
               </div>
             </div>
+            </div>
             <div className="social">
-            <div class="hero">
-      <div class="social-links">
-        <a href="https://www.facebook.com/people/Deepu-Prajapati/pfbid0NSMUSrzPWPeWNjtxn3Z2iraeFN1AAebwhwxZuiKE1KatnmzkZqi83YeY7C7VJtwXl/?mibextid=ZbWKwL" target='_blank'><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.linkedin.com/in/deepu-prajapati-49683a23b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDeepu_0090" target='_blank'><i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/deepudevweb" target='_blank'><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/deepu-prajapati-49683a23b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank'><i class="fab fa-linkedin-in"></i></a>
-      </div>
+            <div className="hero">
+      <div className="social-links">
+        <a href="https://www.facebook.com/people/Deepu-Prajapati/pfbid0NSMUSrzPWPeWNjtxn3Z2iraeFN1AAebwhwxZuiKE1KatnmzkZqi83YeY7C7VJtwXl/?mibextid=ZbWKwL" target='_blank' id='fb' ><i className="fab fa-facebook-f"></i></a>
+        <a href="https://www.linkedin.com/in/deepu-prajapati-49683a23b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' id ='in'><i className="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FDeepu_0090" target='_blank' id ='tw'><i><RiTwitterXFill/></i></a>
+        <a href="https://github.com/deepudevweb" target='_blank' id ='git'><i className="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/deepu-prajapati-49683a23b/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target='_blank' id ='li'><i className="fab fa-linkedin-in"></i></a>
     </div>
             </div>
           </div>

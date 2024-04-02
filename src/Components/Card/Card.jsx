@@ -10,7 +10,7 @@ const Card = () => {
     <>
       <div className="top-heading">
         <h1>Trending products</h1>
-      </div>
+      </div> 
 
       <div className="card-main">
         <div className="item">
@@ -23,7 +23,7 @@ const Card = () => {
             <label>Size</label>  <br />
             <label>Color</label>
 
-            <a className='cart-item' onClick={() => alert("Added to cart")} href="/">Add to cart</a>
+            <a className='cart-item' onClick={() => alert("Added to cart")} href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -36,7 +36,7 @@ const Card = () => {
             <label>Size</label>  <br />
             <label>Color</label>
 
-            <a className='cart-item' href="/" target='_blank' >Add to cart</a>
+            <a className='cart-item' href="#" target='_blank' >Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -48,7 +48,7 @@ const Card = () => {
             <div className="price">$22</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -60,7 +60,7 @@ const Card = () => {
             <div className="price">149$</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -72,7 +72,7 @@ const Card = () => {
             <div className="price">$45</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -84,7 +84,7 @@ const Card = () => {
             <div className="price">$100</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -96,7 +96,7 @@ const Card = () => {
             <div className="price">$9</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -108,7 +108,7 @@ const Card = () => {
             <div className="price">$30</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -120,7 +120,7 @@ const Card = () => {
             <div className="price">$30</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -132,7 +132,7 @@ const Card = () => {
             <div className="price">$5</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -149,7 +149,7 @@ const Card = () => {
               <li>62-14</li>
             </ul>
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -161,7 +161,7 @@ const Card = () => {
             <div className="price">50$</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -173,7 +173,7 @@ const Card = () => {
             <div className="price">$1020</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -185,7 +185,7 @@ const Card = () => {
             <div className="price">$3</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -197,7 +197,7 @@ const Card = () => {
             <div className="price">$40</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -209,7 +209,7 @@ const Card = () => {
             <div className="price">$200</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -221,7 +221,7 @@ const Card = () => {
             <div className="price">$20</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -233,7 +233,7 @@ const Card = () => {
             <div className="price">20$</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -250,7 +250,7 @@ const Card = () => {
               <li>40-45</li>
             </ul>
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -262,7 +262,7 @@ const Card = () => {
             <div className="price">$40</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -274,7 +274,7 @@ const Card = () => {
             <div className="price">$90</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
         <div className="item">
@@ -286,7 +286,7 @@ const Card = () => {
             <div className="price">12$</div>
             <label>Size</label>  <br />
             <label>Color</label>
-            <a className='cart-item' href="/">Add to cart</a>
+            <a className='cart-item' href="#">Add to cart</a>
           </div>
         </div>
       </div>
